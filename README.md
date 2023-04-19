@@ -1,16 +1,11 @@
 # lab4_chess_fen
 
-A new Flutter project.
+Flutter project with two flutter_chess_board widgets and a getx controller that. 
+Two controllers with two tags as an instance of a single class are being created
+and each has assigned board to it. 
 
-## Getting Started
+Clicking "Update fen" button moves a user to the second tab where one can choose a new fen.
+The new fen is assigned to the board which button was clicked. 
+Choosing a fen gets back to the original main page
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Code by Wojciech Medenecki
